@@ -9,7 +9,7 @@ This can get tedious when you work on multiple python projects, each with its ow
 [venv_cd](https://github.com/thealamu/venv_cd) is a script that automatically sources a python virtual environment (if any) present in a directory you ```cd``` into. So, how does it work?
 
 ## Hooking into ```cd```
-In a nutshell, ```venv_cd``` replaces the builtin ```cd```. This requires that it presents itself to the interpreter as ```cd```.
+Effectively, ```venv_cd``` replaces the builtin ```cd```. This requires that it presents itself to the interpreter as ```cd```.
 Interpreters like bash have a command discovery/search mechanism which allows them locate commands or functions you execute. For bash, this is effectively (ommiting a couple): 
 > ```aliases``` ```functions``` ```builtins``` ```path```
 
