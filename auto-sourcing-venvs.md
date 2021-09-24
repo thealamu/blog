@@ -3,8 +3,8 @@ Python virtual environments are a mechanism for separating project dependencies.
 > A virtual environment is a Python environment such that the Python interpreter, libraries and scripts installed into it are isolated from those installed in other virtual environments, and (by default) any libraries installed in a “system” Python, i.e., one which is installed as part of your operating system. — Python Docs
 
 When working with a virtual environment, a key step before installing or using project dependencies is *sourcing* the environment.
-This is usually achieved by asking an interpreter (for example, *bash*) to process an *activate* script in the ```bin``` subdirectory of the environment.
-This can get tedious when you work on multiple python projects each with their own environments. There is also a tendency to forget to source a project's environment (Uh oh, why isn't this working? It worked an hour ago).
+This is usually achieved by asking an interpreter (for example, *bash*) to process an *activate* script, found in the ```bin``` subdirectory of the environment.
+This can get tedious when you work on multiple python projects, each with its own virtual environment. There is also a tendency to forget to source a project's environment (Uh oh, why isn't this working? It worked an hour ago).
 
 [venv_cd](https://github.com/thealamu/venv_cd) is a script that automatically sources a python virtual environment (if any) present in a directory you ```cd``` into. So, how does it work?
 
